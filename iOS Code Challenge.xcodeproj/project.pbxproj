@@ -20,7 +20,6 @@
 		4532DB3524FB9C6500669020 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4532DB3424FB9C6500669020 /* Webservice.swift */; };
 		4532DB3824FB9CAF00669020 /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4532DB3724FB9CAF00669020 /* ProfileModel.swift */; };
 		4532DB3B24FB9E3100669020 /* Profile.json in Resources */ = {isa = PBXBuildFile; fileRef = 4532DB3A24FB9E3100669020 /* Profile.json */; };
-		455F977324FCAF5D00A8CFE8 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455F977224FCAF5D00A8CFE8 /* ProfileViewModel.swift */; };
 		455F977524FCE54E00A8CFE8 /* ChangePass.json in Resources */ = {isa = PBXBuildFile; fileRef = 455F977424FCE54E00A8CFE8 /* ChangePass.json */; };
 		455F977724FCEE5500A8CFE8 /* TableDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455F977624FCEE5500A8CFE8 /* TableDataModel.swift */; };
 		455F977924FCF83E00A8CFE8 /* PasswordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455F977824FCF83E00A8CFE8 /* PasswordCell.swift */; };
@@ -44,7 +43,6 @@
 		4532DB3424FB9C6500669020 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 		4532DB3724FB9CAF00669020 /* ProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
 		4532DB3A24FB9E3100669020 /* Profile.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Profile.json; sourceTree = "<group>"; };
-		455F977224FCAF5D00A8CFE8 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		455F977424FCE54E00A8CFE8 /* ChangePass.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ChangePass.json; sourceTree = "<group>"; };
 		455F977624FCEE5500A8CFE8 /* TableDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableDataModel.swift; sourceTree = "<group>"; };
 		455F977824FCF83E00A8CFE8 /* PasswordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCell.swift; sourceTree = "<group>"; };
@@ -82,7 +80,6 @@
 		4532DB1424FB71A800669020 /* iOS Code Challenge */ = {
 			isa = PBXGroup;
 			children = (
-				455F977124FCAF4C00A8CFE8 /* ViewModel */,
 				4532DB3624FB9C9D00669020 /* Model */,
 				455F8A6424FC583A00DCB9C1 /* Controller */,
 				4532DB3324FB9C5300669020 /* Webservice */,
@@ -152,14 +149,6 @@
 				4532DB1924FB71A800669020 /* ViewController.swift */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		455F977124FCAF4C00A8CFE8 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				455F977224FCAF5D00A8CFE8 /* ProfileViewModel.swift */,
-			);
-			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,7 +231,6 @@
 				4532DB2D24FB767D00669020 /* UIView.swift in Sources */,
 				4532DB3224FB798200669020 /* BasicInfoCell.swift in Sources */,
 				4532DB3524FB9C6500669020 /* Webservice.swift in Sources */,
-				455F977324FCAF5D00A8CFE8 /* ProfileViewModel.swift in Sources */,
 				4532DB2F24FB76E600669020 /* UIColor.swift in Sources */,
 				4532DB1A24FB71A800669020 /* ViewController.swift in Sources */,
 				455F977724FCEE5500A8CFE8 /* TableDataModel.swift in Sources */,
